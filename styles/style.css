@@ -1,0 +1,47 @@
+.window, .editor, .tag {
+	background-color: #ffffff;
+	font-family: "Dejavu Sans";
+	font-size: 10px;
+}
+
+.window {
+}
+
+.tag {
+	border: 0px;
+}
+
+.tag:selected {
+	background-color: #EEEEEE;
+	color: #000000;
+}
+
+.editor:selected {
+	background-color: #E8E8E8;
+	color: #000000;
+}
+
+.scrollbar,
+.scrollbar.vertical {
+    -GtkScrollbar-has-backward-stepper: 0px;
+    -GtkScrollbar-has-forward-stepper: 0px;
+    -GtkRange-slider-width: 8px;
+    border-image: none;
+}
+
+.scrollbar.trough,
+.scrollbar.trough.vertical {
+    background-color: #E0E0E0;
+    border-color: shade(#E0E0E0, 0.9);
+}
+
+.scrollbar.slider,
+.scrollbar.slider:hover,
+.scrollbar.button,
+.scrollbar.slider.vertical,
+.scrollbar.slider.vertical:hover,
+.scrollbar.button.vertical {
+	background-color: #F0F0F0;
+	border-color: shade(#E0E0E0, 0.9);
+	border-width: 1px;
+}

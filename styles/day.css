@@ -1,0 +1,54 @@
+.window, .editor, .tag {
+	background-color: #F0F0F0;
+	font-family: OpenSans;
+}
+
+.window {
+}
+
+.tag {
+	font-size: 11;
+	border: 0;
+}
+
+.tag:selected {
+	background-color: #EEEEEE;
+	color: #000000;
+}
+
+.editor {
+	font-size: 10;
+	background-image: url('images/shadow.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+.editor:selected {
+	background-color: #E8E8E8;
+	color: #000000;
+}
+
+.scrollbar,
+.scrollbar.vertical {
+    -GtkScrollbar-has-backward-stepper: 0;
+    -GtkScrollbar-has-forward-stepper: 0;
+    -GtkRange-slider-width: 8;
+    border-image: none;
+}
+
+.scrollbar.trough,
+.scrollbar.trough.vertical {
+    background-color: #E0E0E0;
+    border-color: shade(#E0E0E0, 0.9);
+}
+
+.scrollbar.slider,
+.scrollbar.slider:hover,
+.scrollbar.button,
+.scrollbar.slider.vertical,
+.scrollbar.slider.vertical:hover,
+.scrollbar.button.vertical {
+	background-color: #F0F0F0;
+	border-color: shade(#E0E0E0, 0.9);
+	border-width: 1px;
+}
